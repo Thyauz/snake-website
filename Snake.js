@@ -70,6 +70,7 @@ function nextTick(){
             
             if(tickSpeed == 50){
                 drawObstacle();
+                createObstacle();
             }
         }, tickSpeed);
     }
